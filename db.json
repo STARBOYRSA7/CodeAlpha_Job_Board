@@ -1,0 +1,116 @@
+{
+  "users": {
+    "e6fccc20-a3bd-4d09-8c99-af80441927d4": {
+      "id": "e6fccc20-a3bd-4d09-8c99-af80441927d4",
+      "name": "Admin",
+      "email": "admin@jobboard.dev",
+      "password": "$2a$10$6V47JL5q6Mq0I7ppQM7roe85h8SvP0bwSHPp6/rLJhad2aI1t7FQa",
+      "role": "admin",
+      "createdAt": "2026-05-10T08:41:27.681Z"
+    },
+    "69f200c8-f3ee-4222-98f9-850b9a8ff66c": {
+      "id": "69f200c8-f3ee-4222-98f9-850b9a8ff66c",
+      "name": "Thabo Mokoena",
+      "email": "employer@techco.co.za",
+      "password": "$2a$10$cVsbhimNkcCitvJmnVCxM.T6IS7nzEkbt2P/qdmh.ks.YajbL/Ari",
+      "role": "employer",
+      "employerId": "39fca098-e861-4236-861c-4d91f6daaf23",
+      "createdAt": "2026-05-10T08:41:27.778Z"
+    },
+    "89ae3450-7f91-4e96-b8d1-3e1237fcac6a": {
+      "id": "89ae3450-7f91-4e96-b8d1-3e1237fcac6a",
+      "name": "sizwe sigubudu",
+      "email": "sizwe@gmail.com",
+      "password": "$2a$10$mNMzEGYaJXMBEZkJP2JHm.jS5niKuazz4hAEOBapsc1nxVcGipKYK",
+      "role": "candidate",
+      "createdAt": "2026-05-10T08:43:07.659Z"
+    }
+  },
+  "employers": {
+    "39fca098-e861-4236-861c-4d91f6daaf23": {
+      "id": "39fca098-e861-4236-861c-4d91f6daaf23",
+      "userId": "69f200c8-f3ee-4222-98f9-850b9a8ff66c",
+      "company": "TechCo SA",
+      "industry": "Software",
+      "website": "https://techco.co.za",
+      "about": "We build innovative software solutions.",
+      "createdAt": "2026-05-10T08:41:27.778Z"
+    }
+  },
+  "jobs": {
+    "8589e009-ccd6-43d8-942f-fa9d6829a923": {
+      "id": "8589e009-ccd6-43d8-942f-fa9d6829a923",
+      "employerId": "39fca098-e861-4236-861c-4d91f6daaf23",
+      "company": "TechCo SA",
+      "title": "Junior Frontend Developer",
+      "type": "Full-Time",
+      "location": "Durban, KZN",
+      "salary": "R18,000 – R25,000/month",
+      "description": "We are looking for a passionate junior frontend developer to join our team. You will work with React and TypeScript.",
+      "requirements": "React, HTML/CSS, JavaScript, Git",
+      "category": "Frontend",
+      "status": "open",
+      "postedAt": "2026-05-10T08:41:27.778Z",
+      "applications": 0
+    },
+    "862cf873-06b8-4427-9940-2947769d3c9f": {
+      "id": "862cf873-06b8-4427-9940-2947769d3c9f",
+      "employerId": "39fca098-e861-4236-861c-4d91f6daaf23",
+      "company": "TechCo SA",
+      "title": "Backend Node.js Developer",
+      "type": "Remote",
+      "location": "Remote (SA)",
+      "salary": "R25,000 – R35,000/month",
+      "description": "Build scalable REST APIs and microservices using Node.js and Express. Experience with PostgreSQL required.",
+      "requirements": "Node.js, Express, PostgreSQL, REST APIs",
+      "category": "Backend",
+      "status": "open",
+      "postedAt": "2026-05-10T08:41:27.778Z",
+      "applications": 0
+    },
+    "219fbc4c-566c-47ee-a154-463b35024c06": {
+      "id": "219fbc4c-566c-47ee-a154-463b35024c06",
+      "employerId": "39fca098-e861-4236-861c-4d91f6daaf23",
+      "company": "TechCo SA",
+      "title": "Android Developer (Kotlin)",
+      "type": "Hybrid",
+      "location": "Johannesburg, GP",
+      "salary": "R20,000 – R30,000/month",
+      "description": "Develop Android applications using Kotlin and Jetpack Compose. Work on user-facing features for our mobile app.",
+      "requirements": "Kotlin, Jetpack Compose, Android SDK, RoomDB",
+      "category": "Mobile",
+      "status": "open",
+      "postedAt": "2026-05-10T08:41:27.778Z",
+      "applications": 0
+    },
+    "f0ff3042-68c9-4601-8902-066bb43cf2d8": {
+      "id": "f0ff3042-68c9-4601-8902-066bb43cf2d8",
+      "employerId": "39fca098-e861-4236-861c-4d91f6daaf23",
+      "company": "TechCo SA",
+      "title": "Full Stack Developer",
+      "type": "Full-Time",
+      "location": "Cape Town, WC",
+      "salary": "R30,000 – R45,000/month",
+      "description": "Own features end-to-end across our React frontend and Django backend. Strong SQL skills required.",
+      "requirements": "React, Django, Python, PostgreSQL, Docker",
+      "category": "Full Stack",
+      "status": "open",
+      "postedAt": "2026-05-10T08:41:27.778Z",
+      "applications": 0
+    }
+  },
+  "resumes": {},
+  "applications": {
+    "c66fa893-c021-4ceb-a23b-030c63c48bb9": {
+      "id": "c66fa893-c021-4ceb-a23b-030c63c48bb9",
+      "jobId": "f0ff3042-68c9-4601-8902-066bb43cf2d8",
+      "candidateId": "89ae3450-7f91-4e96-b8d1-3e1237fcac6a",
+      "candidateName": "sizwe sigubudu",
+      "candidateEmail": "sizwe@gmail.com",
+      "resumeId": null,
+      "coverLetter": "ee",
+      "status": "pending",
+      "appliedAt": "2026-05-10T08:43:27.064Z"
+    }
+  }
+}
